@@ -2,7 +2,7 @@
 ## getting info about devices connected to your local network
 to start an attack you should first get some basic information about your victim, like ip address.
 my favorite command is the last one, but it requires the installation of avahi.
-we can use the following commands to get that info:
+we can use one or more of the following commands to get that info:
 ```
 nmap -sP 192.168.1.0/24
 arp -a
