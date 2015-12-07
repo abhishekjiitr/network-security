@@ -9,7 +9,7 @@ It is particularly useful as it can
   * Detect the vulnerability and security holes
 
 ## Commands:
-Basic Command:
+### Basic Commands:
 ```
 nmap target
 # nmap target.com
@@ -23,4 +23,18 @@ nmap 192.168.1.1/24
 To scan multiple targets
 ```
 nmap target1 target2 target3
+```
+To scan a range of IPs:
+```
+nmap target-100
+# nmap 192.168.1.1-100
+```
+To see list of report of all hosts scanned, add a -sL parameter:
+```
+nmap -sL target/cdir
+# nmap -sL 192.168.1.1/24
+```
+To scan specific ports:
+```
+nmap -p80,21,23 192.168.1.1
 ```
