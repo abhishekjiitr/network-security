@@ -9,6 +9,7 @@ It is particularly useful as it can
   * Detect the vulnerability and security holes
 
 ## Basic Commands:
+Usage: nmap [Scan Type(s)] [Options] {target specification}
 ```
 nmap target
 # nmap target.com
