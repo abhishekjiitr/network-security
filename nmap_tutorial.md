@@ -39,3 +39,20 @@ To scan specific ports:
 nmap -p80,21,23 192.168.1.1
 ```
 ## nmap scanning techniques
+### TCP SYN Scan
+nmap -sS 192.168.1.1
+
+### TCP connect scan
+nmap -sT 192.168.1.1
+
+### UDP Scan
+nmap -sU 192.168.1.1
+
+### Ping Scan
+nmap -sP 192.168.1.1
+
+### Version Detection
+nmap -sV 192.168.1.1
+
+### Idle Scan
+nmap -sl zombie_host target_host
