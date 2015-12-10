@@ -39,31 +39,40 @@ nmap -p80,21,23 192.168.1.1
 ```
 ## nmap scanning techniques
 ### TCP SYN Scan
+default scan, uses SYN packets
+can get information withou completing TCP handshake process
 ```
 nmap -sS 192.168.1.1
 ```
 
 ### TCP connect scan
+completes the normal TCP three way handshake process
+and calls connect(), which is a part of OS
 ```
 nmap -sT 192.168.1.1
 ```
 
 ### UDP Scan
+used to find open UDP ports
 ```
 nmap -sU 192.168.1.1
 ```
 
 ### Ping Scan
+only to check if host is live, can use ICMP
 ```
 nmap -sP 192.168.1.1
 ```
 
 ### Version Detection
+Basic info about software running on target host
 ```
 nmap -sV 192.168.1.1
 ```
 
 ### Idle Scan
+Advanced scan that provides complete anonymity while scanning.
+Instead of generating packets from your pc, it uses another host from the target network.
 ```
 nmap -sl zombie_host target_host
 ```
