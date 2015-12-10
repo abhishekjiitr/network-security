@@ -14,13 +14,12 @@ avahi-browse -rat
 ## ping flooding (DOS attack)
 ping flood basically floods the target pc with lots of ping requests so that it cannot access any other internet resource.
 But it will also flood your pc with ping responses, so use this command only if you are sure that your pc has greater speed than the victim.
-command:
 ```
   ping -f -s 65500 ip(or website)
 ```
 
-However, there are more sophisticated tools available at our disposal like Hping3
-using hping we can easily spoof our ips, so that your identity remains secure while doing the attacks
+However, there are more sophisticated tools available at our disposal like Hping3.
+using hping we can easily spoof our ips, so that your identity remains secure while doing the attacks.
 after installing hping3, we can use the following commands:
 
 ```
