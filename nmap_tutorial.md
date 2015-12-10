@@ -38,3 +38,4 @@ To scan specific ports:
 ```
 nmap -p80,21,23 192.168.1.1
 ```
+## nmap scanning techniques
