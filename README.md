@@ -25,3 +25,5 @@ after installing hping3, we can use the following commands:
 ```
   hping3 -S -P -U --flood -V --rand-source website(or ip)
 ```
+## [nmap tutorial](nmap_tutorial.md)
+## [sqlmap tutorial - sql injection](sqlmap.md)
