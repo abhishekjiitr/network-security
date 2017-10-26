@@ -27,3 +27,4 @@ after installing hping3, we can use the following commands:
 ```
 ## [nmap tutorial](nmap_tutorial.md)
 ## [sqlmap tutorial - sql injection](sqlmap.md)
+## [XSS scripting](https://en.wikipedia.org/wiki/Cross-site_scripting)
